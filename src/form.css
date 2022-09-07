@@ -1,0 +1,107 @@
+body{
+  background-color: #fee19d;
+} 
+.Application{
+  background-color: white;
+  height: 550px;
+  width: 80%;
+  padding: 30px;
+  align-items: center;
+  margin-left: 8%;
+}
+p{
+  color: #469DA4;
+  margin-left: 7%;
+}
+h1{
+  margin-left: 5%;
+  margin-top: 5%;
+  font-weight: normal;
+  color: rgb(79, 71, 71);
+}
+.Email{
+  margin-left: 5%;
+}
+#myEmail{
+  padding: 10px 90px;
+  margin-top: 1%;
+  border-radius: 5px;
+  margin-left: 5%;
+}
+.Pword{
+  margin-left: 5%;
+}
+#myPassword{
+  padding: 10px 90px;
+  margin-top: 4%;
+  border-radius:5px ;
+  margin-left: 5%;
+}
+.box{
+  margin-left: 3%;
+}
+#in{
+  margin-left: 2%;
+}
+.forgot{
+  margin-left: 31%;
+  margin-top: -1.8%;
+}
+.btn{
+  background-color: #469DA4;
+  padding: 13px 125px 9px 240px;
+  border: #469DA4;
+  border-radius: 3px;
+  color: white;
+  margin-left:-2%;
+  margin-top: 1%;
+}
+
+.or{
+  color: rgb(116, 107, 107);
+  margin-left: -2%;
+  margin-top: 2%;
+}
+.icons{
+  margin-left: 10%;
+}
+.icons{
+  border-radius: 20%;
+  margin-top: 3%;
+  padding-left: 155px;
+}
+.icon1{
+  margin-left: -8%;
+  margin-top: 0%; 
+}
+.icon2{
+  margin-left: 0%;
+  margin-top: -2.5%;
+}
+.icon3{
+  margin-left: 9%;
+  margin-top: -2.5%; 
+}
+.sign p{
+  color: rgb(116, 107, 107);
+  margin-left: 73%;
+  margin-top: -48%;
+}
+span{
+  color: #469DA4;
+}
+.image{
+  margin-left: 52%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
