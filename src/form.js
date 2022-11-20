@@ -4,14 +4,31 @@ import React,{useState,useEffect} from 'react';
 import User from './User';
 function MyForm() {
   const [email,setEmail] = useState("")
-  const [password,setPassword] = useState("")
+  const [password,setPassword] = useState()
+
+  const [changeColor, setChangeColor] = useState("#469DA4")
+
+  const handleClick = ()=>{
+    const change = "red";
+    setChangeColor(change)
+  }
+  // console.log('color', changeColor);
+
   const handlerSubmit = ()=>{
+//     const [submit, setSubmitting] = useState(false)
+//     // const handleSubmit = (event) =>{
+//      console.log(event)
     const data = {
       email:email,
       password :password
     }
     alert(JSON.stringify(data))
   }
+//   setTimeout(() => {
+//     setSubmitting(false)
+//     alert(JSON.stringify(data))
+//   }, 5000)
+//  }
     return (
         <div className="Application">
       <form onSubmit={handlerSubmit} >
@@ -37,7 +54,7 @@ function MyForm() {
         <label className="logged" >keep me logged in</label>
         </div>
          <p className="forgot">forgot Password?</p>
-        <p><button className="btn" type="submit">Login </button></p> 
+        <p><button className="btn" type="submit" onClick={handleClick} style={{backgroundColor: `${changeColor}`}}>LogIn</button></p> 
          <div className="or">
          <p>_________________________or______________________</p>
          </div>
