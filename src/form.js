@@ -32,9 +32,9 @@ function MyForm() {
     return (
         <div className="Application">
       <form onSubmit={handlerSubmit} >
-        {/* <div className="bluelog">
+        <div className="bluelog">
           <img src={picture}></img>
-        </div> */}
+        </div>
         <p>EddieShop</p>
         <h1>Welcome back</h1>
         <label className="Email" for="fname">Your email</label>  <br></br>
